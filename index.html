@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./assets/logo.ico" type="image/x-icon">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="main">
+        <div class="sidebar">
+
+            <div class="nav">
+                <div class="nav-logo" style="opacity: 1;">
+                    <i class="fa-brands fa-spotify"></i>
+                    <a href="https://open.spotify.com/" target="_blank">Spotify</a>
+                </div>
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>                    
+                    <a href="#">Search</a>
+                </div>
+            </div>
+
+            <div class="library">
+
+                <div class="options">
+                    <div class="lib-option nav-option">
+                        <img src="./assets/library_icon.png">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcast to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-content">
+
+            <div class="sticky-nav">
+
+                <div class="sticky-nav-icons">
+                    <img src="./assets/backward_icon.png">
+                    <img src="./assets/forward_icon.png" class="hide">
+                </div>
+                
+                <div class="sticky-nav-options">
+                    <button class="badge dark-badge">Sign up</button>
+                    <button class="badge light-badge">Log in</button>
+                </div>
+                
+            </div>
+
+            <div class="cards">
+                <div class="cards-headings">
+                    <h2><a href="#">Spotify Playlists</a></h2>
+                    <p>Show all</p>
+                </div>
+                
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./assets/card1img.jpeg" class="card-img">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played songs of all time.</p>
+                    </div>  
+                    
+                    <div class="card">
+                        <img src="./assets/card3img.jpeg" class="card-img">
+                        <p class="card-title">Lofi Mix - 1</p>
+                        <p class="card-info">The gentle sound of some of the greatest voices.</p>
+                    </div> 
+
+                    <div class="card">
+                        <img src="./assets/card5img.jpeg" class="card-img">
+                        <p class="card-title">Top Songs - Global</p>
+                        <p class="card-info">Explore top songs which most people played multiple times.</p>
+                    </div>   
+
+                    <div class="card">
+                        <img src="./assets/card6img.jpeg" class="card-img">
+                        <p class="card-title">Top Songs - India</p>
+                        <p class="card-info">Delve into Desi and Traditional songs by legends.</p>
+                    </div>    
+                </div>
+            </div>
+            
+            <div class="footer">
+
+                <div class="footer-box">
+            
+                   </div>
+                   <div class="footer-div">
+                        <ul>
+                            <p>Company</p>
+                            <li class="footer-links"><a href="#">About</a></li>
+                            <li class="footer-links"><a href="#">Jobs</a></li>
+                            <li class="footer-links"><a href="#">For the Records</a></li>
+                        </ul>
+                   </div>
+                   <div class="footer-div">
+                        <ul>
+                            <p>Communities</p>
+                            <li class="footer-links"><a href="#">For Artists</a></li>
+                            <li class="footer-links"><a href="#">Developers</a></li>
+                            <li class="footer-links"><a href="#">Advertising</a></li>
+                            <li class="footer-links"><a href="#">Investors</a></li>
+                            <li class="footer-links"><a href="#">Vendors</a></li>
+                        </ul>
+                   </div>
+                   <div class="footer-div">
+                        <ul>
+                            <p>Useful links</p>
+                            <li class="footer-links"><a href="#">Support</a></li>
+                            <li class="footer-links"><a href="#">Free Mobile App</a></li>
+                        </ul>
+                   </div>
+                   <div class="footer-div">
+                   </div>
+
+                   <div class="social-media">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                </div>
+            
+                <div class="line">
+                    <p> &copy; 2024 Spotify AB</p>
+                </div>
+
+            </div>
+
+            
+                
+                
+            </div>
+        </div>
+
+        <div class="music-player">
+
+            <div class="album">
+                <img src="./assets/albumts.jpg">
+                <div class="album-info">
+                    <p class="p1">Karma</p>
+                    <p class="p2">Taylor Swift</p>
+                </div>
+                <div class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                </div>   
+            </div>
+
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./assets/player_icon1.png" class="player-control-icon">
+                    <img src="./assets/player_icon2.png" class="player-control-icon">
+                    <img src="./assets/player_icon3.png" class="player-control-icon" style="opacity: 1; height: 2rem;">
+                    <img src="./assets/player_icon4.png" class="player-control-icon">
+                    <img src="./assets/player_icon5.png" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span class="tot-time">3:24</span>
+                </div>
+            </div>
+            <div class="controls">
+                <i class="fa-regular fa-square-caret-right"></i>
+                <i class="fa-solid fa-microphone"></i>
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-computer"></i>
+
+                <i class="fa-solid fa-volume-low"></i>
+                <input type="range" min="0" max="100" class="volume-bar">
+                
+                <i class="fa-solid fa-minimize"></i>
+                <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+            </div>
+
+        </div>
+
+
+    </div>
+    
+</body>
+</html>
